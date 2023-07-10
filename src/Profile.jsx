@@ -1,9 +1,6 @@
 import './profile.css';
 
-export default ({ username, tag, location, avatar, stats }) => (
-  <div className="wrapper">
-
-  
+const Profile = ({ username, tag, location, avatar, stats }) => (
   <div className="profile">
     <div className="description">
       <img src={avatar} alt="User avatar" className="avatar" />
@@ -31,5 +28,6 @@ export default ({ username, tag, location, avatar, stats }) => (
       </thead>
     </table>
     </div>
-  </div>
 );
+
+export default Profile;
