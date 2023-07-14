@@ -24,3 +24,10 @@ const TransactionHistory = props => (
 )
 
 export default TransactionHistory;
+
+Transactions.propTypes = {
+  id: PropTypes.string.isRequired,
+  type: PropTypes.string.isRequired,
+  amount: PropTypes.number.isRequired,
+  currency: PropTypes.string.isRequired,
+}
