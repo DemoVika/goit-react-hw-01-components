@@ -1,0 +1,42 @@
+ul {
+    list-style: none;
+}
+
+.statistics {
+    margin-top: 40px;
+    width: 400px;
+    height: auto;
+    border: 1px solid rgb(158, 157, 157);
+    border-radius: 10px;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+}
+
+.title {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.percentage {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+table {
+    border-collapse: collapse;
+    background-color: rgb(201, 199, 199);
+    width: 100%;
+    border-radius: 0 0 10px 10px;
+    overflow: hidden;
+    border-left: 0;
+    border-right: none;
+    border-bottom: none;
+}
+
+table td {
+    padding: 10px;
+    border: 1px solid rgb(158, 157, 157);
+    text-align: center;
+}
