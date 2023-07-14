@@ -1,4 +1,5 @@
 // import './profile.css';
+import PropTypes from "prop-types";
 import css from "./Profile.module.css";
 console.log(css)
 

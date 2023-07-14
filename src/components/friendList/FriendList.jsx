@@ -1,4 +1,5 @@
 
+import PropTypes from "prop-types";
 import FriendListItem from './FriendListItem'
 import css from "./FriendList.module.css";
 // console.log(css)
