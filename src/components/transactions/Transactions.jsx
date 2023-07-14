@@ -1,4 +1,4 @@
-import { type } from "@testing-library/user-event/dist/type";
+
 import css from "./Transactions.module.css";
 
 const TransactionHistory = props => (
