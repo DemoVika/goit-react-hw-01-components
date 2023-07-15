@@ -32,7 +32,11 @@ console.log(css)
 export default Statistics;
 
 Statistics.propTypes = {
-  id: PropTypes.string.isRequired,
-  label: PropTypes.string.isRequired,
-  percentage: PropTypes.number.isRequired,
+  title: PropTypes.string,
+  statistics: PropTypes.arrayOf(PropTypes.shape({
+   id: PropTypes.string.isRequired,
+   label: PropTypes.string.isRequired,
+   percentage: PropTypes.number.isRequired,
+  }))
+  
 }

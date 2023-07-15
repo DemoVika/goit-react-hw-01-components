@@ -8,11 +8,11 @@ const FriendList = ({friends}) => (
   <ul className={css.friendList}>
   
   {friends.map(friend => (
-      <FriendListItem
+    <FriendListItem
+        key={friend.id}
         avatar={friend.avatar}
         name={friend.name}
         isOnline={friend.isOnline}
-        id={friend.id} 
       /> ))}
 </ul>
 )
@@ -20,8 +20,10 @@ const FriendList = ({friends}) => (
 export default FriendList;
 
 FriendList.propTypes = {
-  avatar: PropTypes.string.isRequired,
+ friends: PropTypes.arrayOf(PropTypes.shape({
+ avatar: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
-  isOnline: PropTypes.number.isRequired,
+  isOnline: PropTypes.bool.isRequired,
   id: PropTypes.number.isRequired,
+  }))
 }
