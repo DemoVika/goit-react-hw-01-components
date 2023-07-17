@@ -1,22 +1,22 @@
 p {
-    margin-top: 0;
-    margin-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .transactionHistory {
-    border: 1px solid rgb(158, 157, 157);
-    width: 500px;
-    margin-left: 20px;
+  border: 1px solid rgb(158, 157, 157);
+  width: 500px;
+  margin-left: 20px;
 }
 
 table td {
-    padding: 10px;
-    border: 1px solid rgb(158, 157, 157);
-    text-align: center;
+  padding: 10px;
+  border: 1px solid rgb(158, 157, 157);
+  text-align: center;
 }
 thead {
-    background-color: rgb(201, 199, 199);
+  background-color: rgb(201, 199, 199);
 }
 .transactionHistory > tbody {
-background-color: white;
+  background-color: white;
 }

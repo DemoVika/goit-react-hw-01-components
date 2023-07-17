@@ -11,27 +11,10 @@ import TransactionHistory from 'components/transactions/Transactions.jsx';
 export const App = () => {
   return (
     <div>
-      <Profile
-      {...user}
-    />
-    <Statistics
-        statistics={data}
-        title="Upload stats"
-      />
-      
-      <FriendList
-        friends={friends}
-      />;
-      <TransactionHistory
-        items={transactions}
-      />;
-      
-        
+      <Profile {...user} />
+      <Statistics statistics={data} title="Upload stats" />
+      <FriendList friends={friends} />;
+      <TransactionHistory items={transactions} />;
     </div>
-    
   );
 };
-
-
-
-
